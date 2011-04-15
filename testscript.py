@@ -42,10 +42,7 @@ def edit_app_delegate(filename):
 			# just before the return statement, we will add the three
 			# new lines
 			if line.find("return") >= 0:
-
-				new_file.write("#ifdef SCRIPT_DRIVEN_TEST_MODE_ENABLED\n")
 				new_file.write("[[[ScriptRunner alloc] init] autorelease];\n")
-				new_file.write("#endif\n")
 
 				# write the return statement
 				new_file.write(line)
