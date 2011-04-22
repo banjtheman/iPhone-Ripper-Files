@@ -14,7 +14,7 @@ import re
 #
 # The script assumes to find the 8 required .m and .h files in the current directory.
 #
-# After running once, the created [Project Name]_test/ folder should be deleted before running again.
+# Overwrites any folder in the same directory with the name [Project Name]_test
 
 
 
@@ -88,8 +88,24 @@ if (argc != 2):
 	print "usage: testscript.py [name of your profect folder]"
 	exit()
 
+# check to see if the name passed in had a / at the end
+if argv[1][-1] == "/":
+	argv[1] = argv[1][0:-1]
+
 # name of the new directory
 new_directory = argv[1] + "_test"
+
+# the name of the project directory, without the path
+project_name = new_directory[new_directory.rfind("/") + 1:len(new_directory)]
+
+# runs a find on the new directory name
+f = os.popen("ls -p " + new_directory[0:new_directory.rfind("/")])
+for i in f.readlines():
+	# deletes the folder if it is found
+	if i == project_name + "/\n":
+		os.popen("rm -r " + new_directory)
+		break
+
 
 print "creating new project directory..."
 
