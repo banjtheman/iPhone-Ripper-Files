@@ -78,9 +78,6 @@ start_dir=os.getcwd()
 
 print start_dir
 
-app_name=re.split('[/*]',argv[1])
-print app_name[-1]
-
 argc = len(argv)
 
 # terminates if used incorrectly
@@ -91,6 +88,10 @@ if (argc != 2):
 # check to see if the name passed in had a / at the end
 if argv[1][-1] == "/":
 	argv[1] = argv[1][0:-1]
+
+app_name=re.split('[/*]',argv[1])
+print app_name[-1]
+
 
 # name of the new directory
 new_directory = argv[1] + "_test"
