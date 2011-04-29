@@ -82,7 +82,7 @@ argc = len(argv)
 
 # terminates if used incorrectly
 if (argc != 2):
-	print "usage: testscript.py [name of your profect folder]"
+	print "usage: testscript.py [name of your project folder]"
 	exit()
 
 # check to see if the name passed in had a / at the end

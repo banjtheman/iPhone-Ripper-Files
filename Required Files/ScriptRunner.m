@@ -215,7 +215,7 @@ const float SCRIPT_RUNNER_INTER_COMMAND_DELAY = 2.0;
 {
 	static int counter = 0;
 	NSDictionary *keyWindowDescription = [[[UIApplication sharedApplication] keyWindow] fullDescription];
-	NSString *path1 = @"/Users/Jkt610/Desktop/state";
+	NSString *path1 = @"/Users/ed/Desktop/Structures";
 	NSString *version = [NSString stringWithFormat:@"%d",counter];
 	NSString *path = [path1 stringByAppendingString:version];
 	[keyWindowDescription writeToFile:path atomically:YES];

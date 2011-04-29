@@ -1,364 +1,0 @@
-TThreeViewNav
-v7
-r0
-t323896694.454823
-cCheck dependencies
-cProcessInfoPlistFile /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/Info.plist ThreeViewNav-Info.plist
-cCompileXIB /nfshomes/bfruin/Desktop/ThreeViewNav/MainWindow.xib
-cCompileXIB /nfshomes/bfruin/Desktop/ThreeViewNav/RootViewController.xib
-cCompileXIB /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.xib
-cCompileXIB /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.xib
-cProcessPCH /var/folders/zz/zzzivhrRnAmviuee+++f1k++8kw/-Caches-/com.apple.Xcode.11023/SharedPrecompiledHeaders/ThreeViewNav_Prefix-dsupflyyjvgngfgovhjtutbztlwy/ThreeViewNav_Prefix.pch.gch ThreeViewNav_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/main.o /nfshomes/bfruin/Desktop/ThreeViewNav/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThreeViewNavAppDelegate.o /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThreeViewNavAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/RootViewController.o /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/SecondView.o /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThirdView.o /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav normal i386
-cGenerateDSYMFile /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app.dSYM /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav
-cTouch /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
-c000000004CB3FA080000000000001ADD
-t1286863368
-s6877
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.h
-c000000004D9E074600000000000001EF
-t1302202182
-s495
-i<UIKit/UIKit.h>
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m
-c000000004D9E072D0000000000001374
-t1302202157
-s4980
-i"ThreeViewNavAppDelegate.h"
-i"RootViewController.h"
-i"SecondView.h"
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.h
-c000000004D9E0A190000000000000178
-t1302202905
-s376
-i<UIKit/UIKit.h>
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.m
-c000000004D9E0B84000000000000099B
-t1302203268
-s2459
-i"ThreeViewNavAppDelegate.h"
-i"SecondView.h"
-i"ThirdView.h"
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.xib
-c000000004D9E0DF000000000000067A3
-t1302203888
-s26531
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.h
-c000000004D9E0D2200000000000001A4
-t1302203682
-s420
-i<UIKit/UIKit.h>
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.m
-c000000004D9E0DC00000000000000671
-t1302203840
-s1649
-i"ThirdView.h"
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.xib
-c000000004D9E0D990000000000006F60
-t1302203801
-s28512
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThreeViewNavAppDelegate.h
-c000000004D9E029600000000000001EE
-t1302200982
-s494
-i<UIKit/UIKit.h>
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThreeViewNavAppDelegate.m
-c000000004D9E02960000000000000AC7
-t1302200982
-s2759
-i"ThreeViewNavAppDelegate.h"
-i"RootViewController.h"
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/MainWindow.xib
-c000000004D9E02960000000000006008
-t1302200982
-s24584
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/RootViewController.xib
-c000000004D9E04E10000000000006491
-t1302201569
-s25745
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/ThreeViewNav_Prefix.pch
-c000000004D9E0296000000000000014A
-t1302200982
-s330
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app
-t1302203894
-s8192
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app.dSYM
-t1302203841
-s1024
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/Info.plist
-t1302201033
-s611
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/MainWindow.nib
-t1302201047
-s1514
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/PkgInfo
-t1302201033
-s8
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/RootViewController.nib
-t1302201940
-s2367
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/SecondView.nib
-t1302203894
-s2131
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThirdView.nib
-t1302203824
-s2524
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav
-t1302203841
-s25664
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/RootViewController.o
-t1302203180
-s49684
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/SecondView.o
-t1302203811
-s51088
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThirdView.o
-t1302203841
-s40088
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThreeViewNav.LinkFileList
-c000000004D9E064700000000000002BB
-t1302201927
-s699
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThreeViewNavAppDelegate.o
-t1302202183
-s52868
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/main.o
-t1302201061
-s6300
-
-N/nfshomes/bfruin/Desktop/ThreeViewNav/main.m
-c000000004D9E0296000000000000017A
-t1302200982
-s378
-i<UIKit/UIKit.h>
-
-N/var/folders/zz/zzzivhrRnAmviuee+++f1k++8kw/-Caches-/com.apple.Xcode.11023/SharedPrecompiledHeaders/ThreeViewNav_Prefix-dsupflyyjvgngfgovhjtutbztlwy/ThreeViewNav_Prefix.pch.gch
-t1302201047
-s15453392
-
-NThreeViewNav-Info.plist
-c000000004D9E0296000000000000038D
-t1302200982
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies323896693#323896694#0(0"0(0#1#0"8615148608#0"0#
-
-CCompileC build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/RootViewController.o /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323895993.845278
-e323895993.939153
-r1
-xCompileC
-xbuild/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/RootViewController.o
-x/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m:182: warning: property 'theTextLabel' requires method '-theTextLabel' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m:182: warning: property 'theTextLabel' requires the method 'setTheTextLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@74"Compile /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m323895993#323895993#0(435"/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m:182: warning: property 'theTextLabel' requires method '-theTextLabel' to be defined - use @synthesize, @dynamic or provide a method implementation/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m:182: warning: property 'theTextLabel' requires the method 'setTheTextLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@132"Property 'theTextLabel' requires method '-theTextLabel' to be defined - use @synthesize, @dynamic or provide a method implementation323895993#0#214#0(6@66"/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m323894957#182#0#182#0#0"0(22@139"Property 'theTextLabel' requires the method 'setTheTextLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation323895993#214#221#0(6@66"/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m323894957#182#0#182#0#0"0(0#0#66"/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m8615753248#2041"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-generated-files.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-own-target-headers.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-all-target-headers.hmap -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-project-headers.hmap -F/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/include -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources/i386 -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources -include /var/folders/zz/zzzivhrRnAmviuee+++f1k++8kw/-Caches-/com.apple.Xcode.11023/SharedPrecompiledHeaders/ThreeViewNav_Prefix-dsupflyyjvgngfgovhjtutbztlwy/ThreeViewNav_Prefix.pch -c /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/RootViewController.m -o /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/SecondView.o /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323896624.422487
-e323896624.556881
-r1
-xCompileC
-xbuild/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/SecondView.o
-x/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.m323896624#323896624#0(0"0(0#0#58"/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.m8617950912#2025"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-generated-files.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-own-target-headers.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-all-target-headers.hmap -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-project-headers.hmap -F/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/include -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources/i386 -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources -include /var/folders/zz/zzzivhrRnAmviuee+++f1k++8kw/-Caches-/com.apple.Xcode.11023/SharedPrecompiledHeaders/ThreeViewNav_Prefix-dsupflyyjvgngfgovhjtutbztlwy/ThreeViewNav_Prefix.pch -c /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.m -o /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/SecondView.o0#
-
-CCompileC build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThirdView.o /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323896654.782261
-e323896654.919969
-r1
-xCompileC
-xbuild/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThirdView.o
-x/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.m323896654#323896654#0(0"0(0#0#57"/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.m8615087680#2023"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-generated-files.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-own-target-headers.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-all-target-headers.hmap -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-project-headers.hmap -F/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/include -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources/i386 -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources -include /var/folders/zz/zzzivhrRnAmviuee+++f1k++8kw/-Caches-/com.apple.Xcode.11023/SharedPrecompiledHeaders/ThreeViewNav_Prefix-dsupflyyjvgngfgovhjtutbztlwy/ThreeViewNav_Prefix.pch -c /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.m -o /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThirdView.o0#
-
-CCompileC build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThreeViewNavAppDelegate.o /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThreeViewNavAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323894996.713418
-e323894996.811680
-r1
-xCompileC
-xbuild/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThreeViewNavAppDelegate.o
-x/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThreeViewNavAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThreeViewNavAppDelegate.m323894996#323894996#0(0"0(0#0#71"/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThreeViewNavAppDelegate.m8602789344#2051"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-generated-files.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-own-target-headers.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-all-target-headers.hmap -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-project-headers.hmap -F/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/include -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources/i386 -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources -include /var/folders/zz/zzzivhrRnAmviuee+++f1k++8kw/-Caches-/com.apple.Xcode.11023/SharedPrecompiledHeaders/ThreeViewNav_Prefix-dsupflyyjvgngfgovhjtutbztlwy/ThreeViewNav_Prefix.pch -c /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThreeViewNavAppDelegate.m -o /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThreeViewNavAppDelegate.o0#
-
-CCompileC build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/main.o /nfshomes/bfruin/Desktop/ThreeViewNav/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323893874.452991
-e323893874.514345
-r1
-xCompileC
-xbuild/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/main.o
-x/nfshomes/bfruin/Desktop/ThreeViewNav/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /nfshomes/bfruin/Desktop/ThreeViewNav/main.m323893874#323893874#0(0"0(0#0#44"/nfshomes/bfruin/Desktop/ThreeViewNav/main.m8600130272#2005"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-generated-files.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-own-target-headers.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-all-target-headers.hmap -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-project-headers.hmap -F/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/include -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources/i386 -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources -include /var/folders/zz/zzzivhrRnAmviuee+++f1k++8kw/-Caches-/com.apple.Xcode.11023/SharedPrecompiledHeaders/ThreeViewNav_Prefix-dsupflyyjvgngfgovhjtutbztlwy/ThreeViewNav_Prefix.pch -c /nfshomes/bfruin/Desktop/ThreeViewNav/main.m -o /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.xib
-s323896694.027007
-e323896694.449606
-r1
-xCompileXIB
-x/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.xib
-lSLF07#2@33"CompileXIB Classes/SecondView.xib323896694#323896694#0(0"0(0#0#60"/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.xib8618944384#580"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/SecondView.nib /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.xib
-s323896623.987625
-e323896624.422015
-r1
-xCompileXIB
-x/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.xib
-lSLF07#2@32"CompileXIB Classes/ThirdView.xib323896623#323896624#0(0"0(0#0#59"/nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.xib8617416128#578"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThirdView.nib /nfshomes/bfruin/Desktop/ThreeViewNav/Classes/ThirdView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /nfshomes/bfruin/Desktop/ThreeViewNav/MainWindow.xib
-s323893846.765324
-e323893847.270487
-r1
-xCompileXIB
-x/nfshomes/bfruin/Desktop/ThreeViewNav/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib323893846#323893847#0(0"0(0#0#52"/nfshomes/bfruin/Desktop/ThreeViewNav/MainWindow.xib8603651296#572"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/MainWindow.nib /nfshomes/bfruin/Desktop/ThreeViewNav/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /nfshomes/bfruin/Desktop/ThreeViewNav/RootViewController.xib
-s323894740.468727
-e323894741.013898
-r1
-xCompileXIB
-x/nfshomes/bfruin/Desktop/ThreeViewNav/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib323894740#323894741#0(0"0(0#0#60"/nfshomes/bfruin/Desktop/ThreeViewNav/RootViewController.xib8614407520#588"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/RootViewController.nib /nfshomes/bfruin/Desktop/ThreeViewNav/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CGenerateDSYMFile /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app.dSYM /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav
-s323896654.963120
-e323896655.037982
-r1
-xGenerateDSYMFile
-x/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app.dSYM
-x/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/ThreeViewNav.app.dSYM build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav323896654#323896655#0(0"0(0#0#95"/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav8615826400#395"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav -o /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app.dSYM0#
-
-CLd /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav normal i386
-s323896654.920056
-e323896654.963023
-r1
-xLd
-x/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav
-xnormal
-xi386
-lSLF07#2@100"Link /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav323896654#323896654#0(0"0(0#0#0"8617838976#920"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator -F/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator -filelist /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/Objects-normal/i386/ThreeViewNav.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/ThreeViewNav0#
-
-CProcessInfoPlistFile /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/Info.plist ThreeViewNav-Info.plist
-s323893846.733862
-e323893846.765239
-r1
-xProcessInfoPlistFile
-x/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/Info.plist
-xThreeViewNav-Info.plist
-lSLF07#2@31"Process ThreeViewNav-Info.plist323893846#323893846#0(0"0(0#0#61"/nfshomes/bfruin/Desktop/ThreeViewNav/ThreeViewNav-Info.plist30962724186357872#491"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ThreeViewNav-Info.plist -genpkginfo /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app/Info.plist0#
-
-CProcessPCH /var/folders/zz/zzzivhrRnAmviuee+++f1k++8kw/-Caches-/com.apple.Xcode.11023/SharedPrecompiledHeaders/ThreeViewNav_Prefix-dsupflyyjvgngfgovhjtutbztlwy/ThreeViewNav_Prefix.pch.gch ThreeViewNav_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s323893847.270748
-e323893848.048988
-r1
-xProcessPCH
-x/var/folders/zz/zzzivhrRnAmviuee+++f1k++8kw/-Caches-/com.apple.Xcode.11023/SharedPrecompiledHeaders/ThreeViewNav_Prefix-dsupflyyjvgngfgovhjtutbztlwy/ThreeViewNav_Prefix.pch.gch
-xThreeViewNav_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile ThreeViewNav_Prefix.pch323893847#323893848#0(0"0(0#0#61"/nfshomes/bfruin/Desktop/ThreeViewNav/ThreeViewNav_Prefix.pch8600504928#1893"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-generated-files.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-own-target-headers.hmap -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-all-target-headers.hmap -iquote /nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/ThreeViewNav-project-headers.hmap -F/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/include -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources/i386 -I/nfshomes/bfruin/Desktop/ThreeViewNav/build/ThreeViewNav.build/Debug-iphonesimulator/ThreeViewNav.build/DerivedSources -c /nfshomes/bfruin/Desktop/ThreeViewNav/ThreeViewNav_Prefix.pch -o /var/folders/zz/zzzivhrRnAmviuee+++f1k++8kw/-Caches-/com.apple.Xcode.11023/SharedPrecompiledHeaders/ThreeViewNav_Prefix-dsupflyyjvgngfgovhjtutbztlwy/ThreeViewNav_Prefix.pch.gch0#
-
-CTouch /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app
-s323896694.450433
-e323896694.454793
-r1
-xTouch
-x/nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app
-lSLF07#2@88"Touch /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app323896694#323896694#0(0"0(0#0#0"8614912192#281"    cd /nfshomes/bfruin/Desktop/ThreeViewNav    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /nfshomes/bfruin/Desktop/ThreeViewNav/build/Debug-iphonesimulator/ThreeViewNav.app0#
-
