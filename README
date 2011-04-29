@@ -1,4 +1,7 @@
-1. Cd to required files
-2. run ../testscript.py <PATH_OF_APP>
-3. ????
-4. Profit
+Here are the steps to follow to run our script:
+
+1. Clone the iPhone-Ripper-Files repository
+2. From the cloned directory:
+3. cd to Required Files
+4. to run script, type this command: ../testscript.py <PATH_OF_APP>
+5. When prompted, move the libxml2.dylib file to the Classes file and press enter
